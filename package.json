@@ -1,0 +1,12 @@
+{
+    "name": "rslv",
+    "version": "1.0.0",
+    "main": "server.js",
+    "repository": "git@github.com:ifvictr/rslv.git",
+    "author": "Victor Truong <me@ifvictr.com>",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "express": "^4.16.3",
+        "got": "^8.3.0"
+    }
+}
