@@ -1,8 +1,8 @@
 {
-    "name": "rslv",
+    "name": "turnout",
     "version": "1.0.0",
     "main": "server.js",
-    "repository": "git@github.com:ifvictr/rslv.git",
+    "repository": "git@github.com:ifvictr/turnout.git",
     "author": "Victor Truong <me@ifvictr.com>",
     "license": "UNLICENSED",
     "dependencies": {
