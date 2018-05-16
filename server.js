@@ -2,12 +2,10 @@ const got = require("got");
 const express = require("express");
 const app = express();
 
-const PORT = process.env.PORT || 8080;
-const OLD_DOMAIN = process.env.OLD_DOMAIN || "goo.gl";
-const NEW_DOMAIN = process.env.NEW_DOMAIN || "ifvr.co";
+const { PORT = 8080, OLD_DOMAIN, NEW_DOMAIN } = process.env;
 
 app.get("/:id?", async (req, res) => {
-    const id = req.params.id;
+    const { id } = req.params;
     let domain;
 
     try {
